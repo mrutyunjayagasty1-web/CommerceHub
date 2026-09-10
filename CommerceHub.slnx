@@ -1,5 +1,13 @@
 <Solution>
   <Folder Name="/docs/" />
   <Folder Name="/src/" />
+  <Folder Name="/src/Gateway/" />
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/auth/">
+    <Project Path="src/Services/auth/CommerceHub.Auth.Api/CommerceHub.Auth.Api.csproj" />
+    <Project Path="src/Services/auth/CommerceHub.Auth.Application/CommerceHub.Auth.Application.csproj" />
+    <Project Path="src/Services/auth/CommerceHub.Auth.Domain/CommerceHub.Auth.Domain.csproj" />
+    <Project Path="src/Services/auth/CommerceHub.Auth.Infrastructure/CommerceHub.Auth.Infrastructure.csproj" />
+  </Folder>
   <Folder Name="/tests/" />
 </Solution>

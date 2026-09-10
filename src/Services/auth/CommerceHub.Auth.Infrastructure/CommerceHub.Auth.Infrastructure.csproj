@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommerceHub.Auth.Application\CommerceHub.Auth.Application.csproj" />
+    <ProjectReference Include="..\CommerceHub.Auth.Domain\CommerceHub.Auth.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
